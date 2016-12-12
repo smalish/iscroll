@@ -1,0 +1,27 @@
+body,header,footer,section,div,span,p,img,a,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,em,i,b,u,del,button,input,textarea{padding:0;margin:0;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none;-webkit-touch-callout:none;-webkit-text-size-adjust:none;-webkit-tap-highlight-color:rgba(0,0,0,0);font-family:Helvetica;}
+input,textarea{-webkit-user-select:auto !important;}
+:focus{outline:none;}
+img{vertical-align:middle;border:0 none;width:100%;}
+ul{list-style:none;}
+a{text-decoration:none;}
+section{margin:0 auto;}
+header,footer{margin:0 auto;width:100%;}
+em,i{font-style:normal;}
+input{outline:none;}
+html,body{width:100%;height:100%;}
+button,input{border:0 none;}
+u,del{text-decoration:none;}
+/* webkit引擎的浏览器取消默认样式 */
+input[type="submit"],input[type="reset"],input[type="button"],input[type="text"],input[type="number"],button{-webkit-appearance:none;}
+::-webkit-scrollbar {width: 0px;}
+
+.table{display: table; width: 100%;height: 100%;overflow: hidden;}
+.cell{display: table-cell;width: 100%;vertical-align: middle;background-color: rgb(150,150,150);}
+#wrapper{width: 100%;}
+#wrapper .slider{overflow: hidden;}
+.slider li{float: left;}
+.slider li img{-webkit-touch-callout:default;}
+#wrapper .dot{width: 100%;font-size: 0;text-align: center;margin: 4px 0px;}
+.dot ul{overflow: hidden;display: inline-block;}
+.dot ul li{width: .3rem;height: .3rem;float: left;margin-right: .25rem;border-radius: .15rem;background-color: white;}
+.dot ul li.on{background-color: #ff463c;}
